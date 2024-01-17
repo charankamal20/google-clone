@@ -9,8 +9,7 @@ async function WebSearchPage({searchParams}) {
   const data = await response.json();
   const results = data.items;
 
-
-
+  
   if(!results) {
     return <div className="w-full pt-10 flex flex-col justify-center items-center"> 
       <h1 className="text-lg">No result found</h1>
