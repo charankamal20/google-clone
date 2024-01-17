@@ -17,8 +17,7 @@ function HomeSearch() {
         event.preventDefault();
         if(!input.trim()) return;
 
-        router.push(`/search/web?searchTerm=${input}`)
-
+        router.push(`/search/web?searchTerm=${input}`);
     }
 
     const randomSearch = async () => {
@@ -29,7 +28,7 @@ function HomeSearch() {
         if(!response) return;
         
         setRandomSearchLoading(true);
-        router.push(`/search/web?searchTerm=${response}`);
+        router.push(`/search/image?searchTerm=${response}`);
     }
 
     return (
