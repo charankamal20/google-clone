@@ -4,6 +4,8 @@ A fully functional clone of the [Google Clone](https://google-with-next.vercel.a
 
 ## Overview
 
+[![Google Logo](https://google-with-next.vercel.app/_next/image?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F2f%2FGoogle_2015_logo.svg%2F800px-Google_2015_logo.svg.png&w=384&q=75)](https://google-with-next.vercel.app/)
+
 This project is a clone of the Google Search engine, built with modern web development technologies. It leverages Next.js for the frontend, Tailwind CSS for styling, and integrates with Google's Programmable Search Engine API to provide web search capabilities.
 
 ## Features
