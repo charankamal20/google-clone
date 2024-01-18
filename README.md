@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Google Search Clone in NextJs 14
+
+A fully functional clone of the [https://google-with-next.vercel.app/](Google Search) using Next.js 14, Tailwind CSS, and Google's Programmable Search Engine API for web search functionality.
+
+## Overview
+
+This project is a clone of the Google Search engine, built with modern web development technologies. It leverages Next.js for the frontend, Tailwind CSS for styling, and integrates with Google's Programmable Search Engine API to provide web search capabilities.
+
+## Features
+
+- **Google Search Interface:** Mimics the look and feel of the Google Search page.
+- **Web Search:** Utilizes Google's Programmable Search Engine API to perform web searches.
+- **Responsive Design:** Ensures a seamless experience across various devices and screen sizes.
+
+## Technologies Used
+
+- **Next.js 14:** A React framework for building modern web applications.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **Google Programmable Search Engine API:** Enables web search functionality.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/charankamal20/google-clone.git```
+   
+2. Install dependencies:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+    ```bash
+    cd google-search-clone
+    npm install```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Set up environment variables:
 
-## Learn More
+Rename the .env.local.example to '.env.local' file in the root directory and add the following:
 
-To learn more about Next.js, take a look at the following resources:
+    ```env
+    NEXT_PUBLIC_IP_API_KEY=your_extreme_ip_lookup_api_key
+    GOOGLE_API_KEY=your_google_api_key
+    CONTEXT_KEY=your_context_key```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ - Replace your_google_api_key and your_context_key with your actual API key and context key.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Run the development server:
 
-## Deploy on Vercel
+    ```bash
+    npm run dev```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000] in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployment
+
+The project is deployed on Vercel. You can access the live version at [https://google-with-next.vercel.app/].
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues and pull requests.
