@@ -36,7 +36,7 @@ This project is a clone of the Google Search engine, built with modern web devel
 
 Rename the .env.local.example to '.env.local' file in the root directory and add the following:
 
-    ```
+    ```bash
     NEXT_PUBLIC_IP_API_KEY=your_extreme_ip_lookup_api_key
     GOOGLE_API_KEY=your_google_api_key
     CONTEXT_KEY=your_context_key
